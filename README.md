@@ -56,7 +56,7 @@ StockCharts is a web application built using Django that allows users to create 
 
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
 ## Contact
 mail: mikolajczachorowski260203@gmail.com
