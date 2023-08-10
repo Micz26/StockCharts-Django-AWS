@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+
+    .user-actions {
+        margin: 10px 0;
+        padding: 8px;
+        border: none;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #007bff;
+        display: flex;
+        align-items: center;
+        width: 247px;
+    }
+
+    .user-actions a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .user-actions a:hover { /* Added hover effect */
+        color: white;
+    }
+
+    .search-bar{
+        align-items: center;
+        display: flex;
+    }
+
+    input[type="text"] {
+        padding: 9px;
+        border: 1px solid #000;
+        border-radius: 20px 0 0 20px;
+        background-color: #333;
+        color: #fff;
+        width: 197px;
+    }
+
+    button[type="submit"] {
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        padding: 15px 20px; /* Increased padding for taller button */
+        border-radius: 0 20px 20px 0;
+        cursor: pointer;
+        height: 32px;
+    }
+
+    button[type="submit"]:hover { /* Added hover effect */
+        background-color: white;
+        color: #007bff;
+    }
+
+    /* Chart styles */
+    .chart-container {
+        background-color: #007bff;
+        padding: 7px;
+        padding-right: 20px;
+        border-radius: 10px;
+        margin: 10px 0;
+        width: 80%;
+        margin-left: auto;
+    }
+</style>
+
+<div class="user-actions">
+    <a href="/settings"> Settings</a>
+</div>
+<div class="user-actions">
+    <a href="logout"> Log out</a>
+</div>
+<div>
+    <div class="search-bar">
+        <form action="/search" method="POST">
+            {% csrf_token %}
+            <input type="text" name="stock" placeholder="Search for stocks...">
+            <button type="submit"><i class="fa fa-search fa-1x"></i></button>
+        </form>
+    </div>
+</div>
+
+{% for chart in charts %}
+    <div class="chart-container">
+        {{ chart | safe }}
+    </div>
+{% endfor %}
+
+
+{% endblock %}
+
+
+
+
+
+
+
