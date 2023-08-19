@@ -1,6 +1,6 @@
 # StockCharts Django Project
 
-StockCharts is a web application built using Django that allows users to create accounts, manage settings, search for stocks, follow or unfollow stocks of interest, view candlestick charts, and access financial data of various companies.
+StockCharts is a web application built using Django that allows users to create accounts, manage settings, search for stocks, follow or unfollow stocks of interest, view candlestick charts, and access financial data of various companies!
 
 ## Features
 
