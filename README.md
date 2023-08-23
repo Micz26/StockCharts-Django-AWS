@@ -28,7 +28,7 @@ StockCharts is a web application built using Django that allows users to create 
   <p align="center">
     <img src="GUI/createchartvid.gif" alt="Video GIF" width="800" height="450">
   </p>
-- **Company Information & Financial Data**:
+- **Company Information & Financial Data**: Users can see basic company information and latest financial data
   <p align="center">
     <img src="GUI/Stockinfovid.gif" alt="Video GIF" width="800" height="450">
   </p>
