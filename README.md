@@ -26,7 +26,7 @@ StockCharts is a web application built using Django that allows users to create 
   </p> 
 - **Candlestick Charts**: Users can view candlestick charts for selected stocks. They can input start date, end date, and interval for chart customization.
   <p align="center">
-    <img src="GUI/Stockinfo.gif" alt="Video GIF" width="800" height="450">
+    <img src="GUI/createchartvid.gif" alt="Video GIF" width="800" height="450">
   </p>
 - **Company Information & Financial Data**:
   <p align="center">
