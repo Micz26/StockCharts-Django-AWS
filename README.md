@@ -8,6 +8,9 @@ StockCharts is a web application built using Django that allows users to create 
 - **Settings**: Users can modify their account settings, such as profile information and preferences.
 - **Stock Search**: Users can search for stocks based on company names or symbols.
 - **Stock Following**: Users can follow or unfollow stocks to create a personalized feed.
+  <p align="center">
+  <img src="GUI/followvid.gif" alt="Video GIF" width="800" height="450">
+</p>
 - **Home Page Feed**: The home page displays a feed of candlestick charts for followed stocks.
 - **Candlestick Charts**: Users can view candlestick charts for selected stocks. They can input start date, end date, and interval for chart customization.
 - **Company Information**: Users can access basic company information, including location and other relevant details.
