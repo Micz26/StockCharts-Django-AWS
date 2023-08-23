@@ -8,10 +8,6 @@ StockCharts is a web application built using Django that allows users to create 
   <p align="center">
     <img src="GUI/Signupvid.gif" alt="Video GIF" width="800" height="450">
   </p>
-- **Home Page Feed**: The home page displays a feed of candlestick charts for followed stocks.
-  <p align="center">
-    <img src="GUI/settingsvid.gif" alt="Video GIF" width="800" height="450">
-  </p>
 - **Settings**: Users can modify their account settings, such as profile information and preferences.
   <p align="center">
     <img src="GUI/settingsvid.gif" alt="Video GIF" width="800" height="450">
@@ -24,14 +20,15 @@ StockCharts is a web application built using Django that allows users to create 
   <p align="center">
     <img src="GUI/followvid.gif" alt="Video GIF" width="800" height="450">
   </p>
+- **Home Page Feed**: The home page displays a feed of candlestick charts for followed stocks.
+  
 - **Candlestick Charts**: Users can view candlestick charts for selected stocks. They can input start date, end date, and interval for chart customization.
   <p align="center">
     <img src="GUI/Stockinfo.gif" alt="Video GIF" width="800" height="450">
   </p>
-- **Company Information**: Users can access basic company information, including location and other relevant details.
-- **Financial Data**:
+- **Company Information & Financial Data**:
   <p align="center">
-    <img src="GUI/Stockinfo.gif" alt="Video GIF" width="800" height="450">
+    <img src="GUI/Stockinfovid.gif" alt="Video GIF" width="800" height="450">
   </p>
 
 
