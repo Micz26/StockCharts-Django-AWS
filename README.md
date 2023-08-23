@@ -5,48 +5,37 @@ StockCharts is a web application built using Django that allows users to create 
 ## Features
 
 - **User Authentication**: Users can create accounts, log in, and manage their profiles.
+  <p align="center">
+    <img src="GUI/Signupvid.gif" alt="Video GIF" width="800" height="450">
+  </p>
+- **Home Page Feed**: The home page displays a feed of candlestick charts for followed stocks.
+  <p align="center">
+    <img src="GUI/settingsvid.gif" alt="Video GIF" width="800" height="450">
+  </p>
 - **Settings**: Users can modify their account settings, such as profile information and preferences.
+  <p align="center">
+    <img src="GUI/settingsvid.gif" alt="Video GIF" width="800" height="450">
+  </p>
 - **Stock Search**: Users can search for stocks based on company names or symbols.
+  <p align="center">
+    <img src="GUI/searchvid.gif" alt="Video GIF" width="800" height="450">
+  </p>
 - **Stock Following**: Users can follow or unfollow stocks to create a personalized feed.
   <p align="center">
-  <img src="GUI/followvid.gif" alt="Video GIF" width="800" height="450">
-</p>
-- **Home Page Feed**: The home page displays a feed of candlestick charts for followed stocks.
+    <img src="GUI/followvid.gif" alt="Video GIF" width="800" height="450">
+  </p>
 - **Candlestick Charts**: Users can view candlestick charts for selected stocks. They can input start date, end date, and interval for chart customization.
+  <p align="center">
+    <img src="GUI/Stockinfo.gif" alt="Video GIF" width="800" height="450">
+  </p>
 - **Company Information**: Users can access basic company information, including location and other relevant details.
-- **Financial Data**: Users can retrieve financial data for companies, including:
-  - Income Statement
-    - Total Revenue
-    - Gross Profit
-    - Operating Income
-    - Net Income
-  - Balance Sheet
-    - Total Assets
-    - Total Liabilities
-    - Shareholder's Equity
-  - Cash Flow Statement
-    - Operating Cash Flow
-    - Investing Cash Flow
-    - Financing Cash Flow
-  - Earnings Per Share (EPS)
-    - Basic EPS
-    - Diluted EPS
-  - Profitability and Margin Ratios
-    - Gross Margin
-    - Operating Margin
-    - Net Margin
-  - Liquidity and Solvency Ratios
-    - Current Ratio
-    - Debt-to-Equity Ratio
-  - Return on Investment Ratios
-    - Return on Assets (ROA)
-    - Return on Equity (ROE)
-  - Dividend Information
-    - Dividends Paid
-    - Dividend Yield
-  - Market Performance Metrics
-    - Market Capitalization
-    - Price-to-Earnings (P/E) Ratio
+- **Financial Data**:
+  <p align="center">
+    <img src="GUI/Stockinfo.gif" alt="Video GIF" width="800" height="450">
+  </p>
+
+
+
 
 ## Usage
 - Log in or create an account.
