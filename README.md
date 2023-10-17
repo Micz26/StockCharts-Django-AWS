@@ -1,6 +1,6 @@
-# StockCharts Django Project
+# StockCharts Django AWS
 
-StockCharts is a web application built using Django that allows users to create accounts, manage settings, search for stocks, follow or unfollow stocks of interest, view candlestick charts, and access financial data of various companies!
+StockCharts is a Django-based web app hosted on AWS EC2. It enables users to create accounts, customize settings, search for stocks, track favorites, and explore candlestick charts, providing access to comprehensive financial data.
 
 ## Features 
 (Note: The GIFs may appear dotted here, but it displays smoothly in reality.)
